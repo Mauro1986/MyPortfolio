@@ -5,7 +5,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+html{
+  scroll-behavior: smooth;
 
+}
 .scrolling-box {
   background-color: #eaeaea;
   display: block;
