@@ -10,7 +10,119 @@ html{
 
 }
 
+@media screen and (max-width: 750px)
+{
+  #header-and-nav a {
+    /*font-size: 10px;
+    padding: 0cm;*/
+    display: none;
+  }
+   #blok-a {
+     /* border:ridge;
+      border-width: 3px;
+      border-color: rgb(41, 126, 83); */
+    /*margin-top: 6%;*/
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-start: 1;
+margin-top: -1.6em;
+  }
 
+  #blok-a h3{
+    font-size: 22px;
+  }
+  #blok-a h4{
+    font-size: 18px;
+  }
+  #blok-a br{
+    display: none;
+  }
+  #blok-a p{
+    display: none;
+  }
+  #blok-b {
+    /* border:dotted;
+     border-width: 3px;
+     border-color: rgb(128, 126, 124); 
+    /*margin-top: 6%;*/
+  
+    background-image: url("../mauropull.jpg");
+padding-right: 10em;
+margin-top: 7.5em;
+margin-left:-9em;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-start: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #project-a {
+    /* border: dotted;
+      border-width: 3px;
+      border-color: rgb(140, 127, 255); */
+      padding-right: 0em;
+      margin-top: 3em;
+      margin-left:-14em;
+      grid-row-start: 3;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-start: 2;
+      opacity: 0.1;
+  }
+  #project-b {
+    /*  border:dotted;
+      border-width: 3px;
+      border-color: rgb(224, 138, 26); 
+      text-align: left;;*/
+      padding-right: 10em;
+      margin-top: 3.5em;
+      margin-left:-28em;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-start: 1;
+  }
+  #project-b p{
+    text-align:left;
+    font-size: 11px;
+  }
+
+  #buttn .button1 {
+    border: none;
+    color: rgb(14, 13, 13);
+    padding: 9px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 14px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    right: 15px;
+  }
+  #budgetappfoto {
+display: none;
+  }
+  
+  #project-d {
+     /* border:dotted;
+      border-width: 3px;
+      border-color: rgb(224, 138, 26); */
+      text-align: left;
+    margin-left: -28em;
+    margin-top: -28em;
+    padding-top: -28em;
+position: sticky;
+  }
+  #project-d p{
+    font-size: 11px;
+    margin-top: -1em;
+  }
+  #project-d h1{
+    margin-top: -8em;
+  }
 
 }
 .scrolling-box {
