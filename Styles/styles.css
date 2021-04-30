@@ -13,10 +13,11 @@ html{
 @media screen and (max-width: 750px)
 {
   #header-and-nav a {
-    /*font-size: 10px;
-    padding: 0cm;*/
+    /*font-size: 10px;*/
+    /*padding: 0cm;*/
     display: none;
   }
+  #header-and-nav{display: none;}
 
   #titls{
     font-size: 13px;
@@ -31,7 +32,7 @@ html{
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-start: 1;
-margin-top: -1.6em;
+margin-top: -3.4em;
 margin-right: 2.6em;
   }
 
